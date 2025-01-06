@@ -8,5 +8,5 @@ git clone https://github.com/heryrmdn/rock-paper-scissor-game.git && cd rock-pap
 Run App:
 
 ```bash
-python3 nama_file.py
+python3 main.py
 ```
