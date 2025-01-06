@@ -10,9 +10,9 @@ class Option(Enum):
 
 
 class Result(Enum):
-    DRAW = "It's a tie!"
-    USER_WINS = "User Wins!"
-    COMPUTER_WINS = "Computer Wins!"
+    DRAW = "It's a tie!!!"
+    USER_WINS = "You Win!!!"
+    COMPUTER_WINS = "You Lose!!!"
         
 
 def get_choice_name(choice: int) -> str:
@@ -55,7 +55,7 @@ def main():
         print(user_choice_name, "vs", comp_choice_name)
         print("Calculating result...")
         time.sleep(3)
-        print(result, "\n")
+        print("\n", result, "\n")
         print("Do you want to play again? (Y/N)")
         
         ans: str
